@@ -1,0 +1,17 @@
+.product-card {
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+mat-card:hover{
+  transform:scale(1.05);
+  cursor: pointer;
+}
+
+mat-card {
+  transition: transform 0.3s;
+}
+
+.sort-dropdown {
+  margin-left: 20px;
+}
